@@ -1,25 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__10_Zing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ZingMp3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sus-Bh-4ro">
+                                <rect key="frame" x="-4" y="137" width="379" height="376"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="379" id="4LH-XG-y3N"/>
+                                    <constraint firstAttribute="width" constant="375" id="8b3-qd-1Jr"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="376" id="ZWO-dI-WG8"/>
+                                    <constraint firstAttribute="height" constant="376" id="krT-OR-6Rs"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ZING MP3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lu4-7b-00k">
+                                <rect key="frame" x="51" y="581" width="272" height="43"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="40"/>
+                                <color key="textColor" red="0.73858802356020936" green="0.11212048781034399" blue="0.57417838585857328" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="41" id="1LY-lU-WHO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lu4-7b-00k" secondAttribute="trailing" constant="40" id="4QP-p8-kYH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sus-Bh-4ro" secondAttribute="trailing" constant="-20" id="4sm-0V-3qY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sus-Bh-4ro" secondAttribute="trailing" constant="-20" id="4z9-Qk-J47"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="7me-Um-JiV"/>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="7vB-gS-VTQ"/>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="top" secondItem="sus-Bh-4ro" secondAttribute="bottom" constant="39" id="9vD-VQ-xIf"/>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="top" secondItem="sus-Bh-4ro" secondAttribute="bottom" constant="48" id="A9K-EB-fwZ"/>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="top" secondItem="sus-Bh-4ro" secondAttribute="bottom" constant="57" id="CKk-Ei-OEA"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="117" id="G5g-sx-8iV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sus-Bh-4ro" secondAttribute="trailing" constant="-22" id="HsC-1D-oel"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="Nw2-LU-lk7"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="119" id="OqA-dq-nFN"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="VvM-rw-5gv"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-22" id="XZl-Id-ARa"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZyR-si-8Q3"/>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="top" secondItem="sus-Bh-4ro" secondAttribute="bottom" constant="57" id="aPa-FZ-cEa"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="119" id="cDC-Na-esV"/>
+                            <constraint firstItem="lu4-7b-00k" firstAttribute="top" secondItem="sus-Bh-4ro" secondAttribute="bottom" constant="57" id="cui-uy-Qhq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lu4-7b-00k" secondAttribute="trailing" constant="31" id="dte-HO-4pk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lu4-7b-00k" secondAttribute="bottom" constant="43" id="f0J-Np-4mf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sus-Bh-4ro" secondAttribute="trailing" constant="-20" id="g5O-8R-HYO"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="119" id="hfG-vw-U6H"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pIy-hP-jLV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lu4-7b-00k" secondAttribute="bottom" constant="52" id="pfu-5H-ciL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sus-Bh-4ro" secondAttribute="trailing" constant="-25" id="q2Q-M3-ZgN"/>
+                            <constraint firstItem="sus-Bh-4ro" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="w1g-F9-KAS"/>
+                        </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="logo" destination="sus-Bh-4ro" id="cbm-No-JZs"/>
+                        <outlet property="text" destination="lu4-7b-00k" id="gJJ-X5-eQN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="205.5" y="307.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ZingMp3.jpg" width="900" height="900"/>
+    </resources>
 </document>

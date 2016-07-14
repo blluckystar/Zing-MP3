@@ -12,6 +12,7 @@
 		5F25CD131D3821F20031C373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25CD111D3821F20031C373 /* Main.storyboard */; };
 		5F25CD151D3821F20031C373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25CD141D3821F20031C373 /* Assets.xcassets */; };
 		5F25CD181D3821F20031C373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25CD161D3821F20031C373 /* LaunchScreen.storyboard */; };
+		5F25CD211D3822AE0031C373 /* ZingMp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F25CD201D3822AE0031C373 /* ZingMp3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F25CD141D3821F20031C373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F25CD171D3821F20031C373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F25CD191D3821F20031C373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F25CD201D3822AE0031C373 /* ZingMp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ZingMp3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5F25CD0C1D3821F20031C373 /* 3.10 Zing */ = {
 			isa = PBXGroup;
 			children = (
+				5F25CD1F1D3822870031C373 /* Source */,
 				5F25CD0D1D3821F20031C373 /* AppDelegate.swift */,
 				5F25CD0F1D3821F20031C373 /* ViewController.swift */,
 				5F25CD111D3821F20031C373 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				5F25CD191D3821F20031C373 /* Info.plist */,
 			);
 			path = "3.10 Zing";
+			sourceTree = "<group>";
+		};
+		5F25CD1F1D3822870031C373 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5F25CD201D3822AE0031C373 /* ZingMp3.jpg */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				5F25CD181D3821F20031C373 /* LaunchScreen.storyboard in Resources */,
 				5F25CD151D3821F20031C373 /* Assets.xcassets in Resources */,
+				5F25CD211D3822AE0031C373 /* ZingMp3.jpg in Resources */,
 				5F25CD131D3821F20031C373 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
